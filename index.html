@@ -72,44 +72,41 @@
   <section class="problem">
     <div class="container">
       <span class="section-header">EL PROBLEMA HOY</span>
-      <div class="problem__card">
-        <div class="problem__photo">
-          <img src="assets/problem.png" alt="Operador anotando en cuaderno en el campo" loading="lazy" />
-        </div>
-        <p class="problem__lead">
-          Hoy, la mayoría de las propiedades en Santa Cruz rinden cuentas enviando
-          fotos sueltas por chat a fin de mes.
-        </p>
-        <div class="problem__grid">
-          <div class="problem__item">
-            <div class="problem__icon">
-              <!-- Reloj / tiempo -->
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
-              </svg>
+      <!-- Foto de fondo con problemas superpuestos -->
+      <div class="problem__visual">
+        <img src="assets/problem.png" alt="Operador anotando en cuaderno en el campo" loading="lazy" class="problem__bg" />
+        <div class="problem__overlay">
+          <p class="problem__lead">
+            Hoy, la mayoría de las propiedades en Santa Cruz rinden cuentas enviando fotos sueltas por chat a fin de mes.
+          </p>
+          <div class="problem__grid">
+            <div class="problem__item">
+              <div class="problem__icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+                </svg>
+              </div>
+              <h3>Desfase de 30 días</h3>
+              <p>Te enteras de lo que pasó en el campo un mes tarde, cuando ya no hay nada que corregir.</p>
             </div>
-            <h3>Desfase de 30 días</h3>
-            <p>Te enteras de lo que pasó en el campo un mes tarde, cuando ya no hay nada que corregir.</p>
-          </div>
-          <div class="problem__item">
-            <div class="problem__icon">
-              <!-- Alerta / error de datos -->
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/>
-              </svg>
+            <div class="problem__item">
+              <div class="problem__icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/>
+                </svg>
+              </div>
+              <h3>Horas mal contabilizadas</h3>
+              <p>Tiempos imposibles de auditar y un horómetro que nadie cruza con la realidad.</p>
             </div>
-            <h3>Horas mal contabilizadas</h3>
-            <p>Tiempos imposibles de auditar y un horómetro que nadie cruza con la realidad.</p>
-          </div>
-          <div class="problem__item">
-            <div class="problem__icon">
-              <!-- Gota / combustible -->
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M12 2C6.48 2 2 8 2 13a10 10 0 0 0 20 0c0-5-4.48-11-10-11z"/>
-              </svg>
+            <div class="problem__item">
+              <div class="problem__icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2C6.48 2 2 8 2 13a10 10 0 0 0 20 0c0-5-4.48-11-10-11z"/>
+                </svg>
+              </div>
+              <h3>Desvíos ocultos de diésel</h3>
+              <p>Litros que salen del tanque y no aparecen en ningún reporte confiable.</p>
             </div>
-            <h3>Desvíos ocultos de diésel</h3>
-            <p>Litros que salen del tanque y no aparecen en ningún reporte confiable.</p>
           </div>
         </div>
       </div>
