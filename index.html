@@ -20,7 +20,7 @@
       <div class="brand">
         <img src="assets/logo.png" alt="RCM" class="brand__logo" />
       </div>
-      <button class="btn btn--ghost btn--sm" data-cta="nav">Solicitar acceso Beta</button>
+      <button class="btn btn--blue btn--sm" data-cta="nav">Solicitar acceso anticipado</button>
     </div>
   </header>
 
@@ -28,9 +28,9 @@
   <section class="hero">
     <div class="container hero__inner">
       <img src="assets/logo.png" alt="RCM" class="hero__logo" />
-      <span class="eyebrow">CONTROL OPERATIVO EN ORIGEN</span>
+      <span class="eyebrow speed-line">CONTROL OPERATIVO EN ORIGEN</span>
       <h1 class="hero__title">
-        Controla tu eficiencia y costo real de tu jornada agrícola sin depender de
+        Controla tu <em>eficiencia y costo real</em> de tu jornada agrícola sin depender de
         planillas de Excel ni reportes borrosos de WhatsApp.
       </h1>
       <p class="hero__subtitle">
@@ -40,8 +40,30 @@
       </p>
       <div class="hero__actions">
         <button class="btn btn--primary btn--lg" data-cta="hero">
-          Solicitar acceso al piloto Beta de 30 días
+          Solicitar acceso anticipado de 30 días
         </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PREVIEW (vistazo sutil) ============ -->
+  <section class="preview">
+    <div class="container">
+      <div class="preview__head">
+        <span class="section-header speed-line">UN VISTAZO</span>
+        <h2 class="preview__title">Así se ve tu campo bajo control</h2>
+        <p class="preview__sub">Registro en origen para el operador, auditoría inmediata para vos.</p>
+      </div>
+      <div class="preview__phones">
+        <figure class="phone phone--side">
+          <img src="assets/screenshots/screen-1.png" alt="Vista de la app RCM" loading="lazy" />
+        </figure>
+        <figure class="phone phone--center">
+          <img src="assets/screenshots/screen-2.png" alt="Vista de la app RCM" loading="lazy" />
+        </figure>
+        <figure class="phone phone--side">
+          <img src="assets/screenshots/screen-3.png" alt="Vista de la app RCM" loading="lazy" />
+        </figure>
       </div>
     </div>
   </section>
@@ -57,17 +79,32 @@
         </p>
         <div class="problem__grid">
           <div class="problem__item">
-            <div class="problem__icon">⏱</div>
+            <div class="problem__icon">
+              <!-- Reloj / tiempo -->
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+              </svg>
+            </div>
             <h3>Desfase de 30 días</h3>
             <p>Te enteras de lo que pasó en el campo un mes tarde, cuando ya no hay nada que corregir.</p>
           </div>
           <div class="problem__item">
-            <div class="problem__icon">∿</div>
+            <div class="problem__icon">
+              <!-- Alerta / error de datos -->
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/>
+              </svg>
+            </div>
             <h3>Horas mal contabilizadas</h3>
             <p>Tiempos imposibles de auditar y un horómetro que nadie cruza con la realidad.</p>
           </div>
           <div class="problem__item">
-            <div class="problem__icon">⛽</div>
+            <div class="problem__icon">
+              <!-- Gota / combustible -->
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2C6.48 2 2 8 2 13a10 10 0 0 0 20 0c0-5-4.48-11-10-11z"/>
+              </svg>
+            </div>
             <h3>Desvíos ocultos de diésel</h3>
             <p>Litros que salen del tanque y no aparecen en ningún reporte confiable.</p>
           </div>
@@ -81,9 +118,9 @@
     <div class="container">
       <div class="closer__card">
         <h2 class="closer__title">Empieza a auditar tu operación esta campaña.</h2>
-        <p class="closer__sub">Acceso al piloto Beta de 30 días para propiedades mecanizadas de Santa Cruz.</p>
+        <p class="closer__sub">Acceso anticipado de 30 días para propiedades mecanizadas de Santa Cruz.</p>
         <button class="btn btn--accent btn--lg" data-cta="closer">
-          Solicitar acceso al piloto Beta de 30 días
+          Solicitar acceso anticipado de 30 días
         </button>
       </div>
     </div>
@@ -105,7 +142,7 @@
       <!-- PASO 1: Formulario -->
       <div class="step" data-step="form">
         <span class="section-header">PASO 1 DE 2 · TUS DATOS</span>
-        <h2 class="modal__title" id="modalTitle">Solicita acceso al piloto Beta</h2>
+        <h2 class="modal__title" id="modalTitle">Solicita tu acceso anticipado</h2>
         <p class="modal__lead">Cupos limitados para esta campaña. Déjanos tus datos y te contactamos.</p>
         <form id="leadForm" novalidate>
           <label class="field">
@@ -132,14 +169,22 @@
       <div class="step" data-step="pricing" hidden>
         <span class="section-header">PASO 2 DE 2 · ELIGE TU PLAN</span>
         <h2 class="modal__title">¿Qué plan se ajusta a tu operación?</h2>
-        <p class="modal__lead">Selecciona un plan para reservar tu lugar en el piloto.</p>
+        <p class="modal__lead">Selecciona un plan para reservar tu lugar en la preventa.</p>
         <div class="plans">
+          <button class="plan" data-plan="inicial">
+            <div class="plan__head">
+              <span class="plan__name">Plan Inicial</span>
+            </div>
+            <div class="plan__price"><strong>USD 5</strong><span>/mes</span></div>
+            <p class="plan__detail">1 operador · 1 máquina</p>
+            <span class="plan__select">Elegir este plan →</span>
+          </button>
           <button class="plan" data-plan="propiedad_familiar">
             <div class="plan__head">
               <span class="plan__name">Plan Propiedad Familiar</span>
             </div>
-            <div class="plan__price"><strong>USD 29</strong><span>/mes</span></div>
-            <p class="plan__detail">Hasta 3 máquinas</p>
+            <div class="plan__price"><strong>USD 49</strong><span>/mes</span></div>
+            <p class="plan__detail">Hasta 5 operadores · hasta 5 máquinas</p>
             <span class="plan__select">Elegir este plan →</span>
           </button>
           <button class="plan" data-plan="agro_mecanizado">
@@ -147,7 +192,7 @@
               <span class="plan__name">Plan Agro-Mecanizado</span>
             </div>
             <div class="plan__price"><strong>USD 99</strong><span>/mes</span></div>
-            <p class="plan__detail">Maquinarias ilimitadas + alertas de diésel</p>
+            <p class="plan__detail">Operadores y maquinarias ilimitados + alertas de diésel</p>
             <span class="plan__select">Elegir este plan →</span>
           </button>
         </div>
@@ -156,9 +201,9 @@
       <!-- PASO 3: Confirmación -->
       <div class="step step--confirm" data-step="confirm" hidden>
         <div class="confirm__check">✓</div>
-        <h2 class="modal__title">¡Estás dentro del piloto!</h2>
+        <h2 class="modal__title">¡Estás dentro de la preventa!</h2>
         <p class="modal__lead">
-          RCM está en fase de piloto / preventa. Revisamos tu perfil y te
+          RCM está en fase de acceso anticipado / preventa. Revisamos tu perfil y te
           contactamos en un plazo de <strong>3 días hábiles</strong> para coordinar
           tu acceso de 30 días.
         </p>
