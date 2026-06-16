@@ -159,6 +159,7 @@
       empresa: form.empresa.value.trim(),
       ubicacion: form.ubicacion.value.trim(),
       maquinarias: form.maquinarias.value.trim(),
+      telefono: form.telefono.value.trim(),
     };
 
     track("form_submit", leadData);

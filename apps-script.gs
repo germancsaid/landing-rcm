@@ -16,7 +16,7 @@ function doPost(e) {
 
   if (esLead) {
     var leads = getOrCreateSheet(ss, "Leads", [
-      "ts", "type", "sid", "nombre", "empresa", "ubicacion", "maquinarias", "plan"
+      "ts", "type", "sid", "nombre", "empresa", "ubicacion", "maquinarias", "telefono", "plan"
     ]);
     leads.appendRow([
       data.ts || new Date().toISOString(),
@@ -26,6 +26,7 @@ function doPost(e) {
       data.empresa || "",
       data.ubicacion || "",
       data.maquinarias || "",
+      data.telefono || "",
       data.plan || ""
     ]);
   } else {

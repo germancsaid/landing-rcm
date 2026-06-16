@@ -252,7 +252,7 @@ h1, h2, h3 { font-family: "Montserrat", sans-serif; }
   padding: 44px;
   background: linear-gradient(
     to bottom,
-    rgba(10, 10, 10, 0.55) 0%,
+    rgba(255, 255, 255, 0.55) 0%,
     rgba(10, 10, 10, 0.82) 100%
   );
   min-height: 480px;
@@ -268,7 +268,7 @@ h1, h2, h3 { font-family: "Montserrat", sans-serif; }
   color: #ffffff;
   max-width: 780px;
   margin-bottom: 32px;
-  text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+  text-shadow: 0 2px 8px rgba(255, 255, 255, 0.4);
 }
 .problem__grid {
   display: grid;
@@ -276,17 +276,13 @@ h1, h2, h3 { font-family: "Montserrat", sans-serif; }
   gap: 16px;
 }
 .problem__item {
-  background: rgba(0, 0, 0, 0.45);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: var(--r-lg);
   padding: 22px;
   transition: background 0.2s ease, border-color 0.2s ease;
 }
-.problem__item:hover {
-  background: rgba(0, 0, 0, 0.6);
-  border-color: var(--border-gold);
-}
+
 .problem__icon {
   width: 44px; height: 44px;
   display: grid; place-items: center;
