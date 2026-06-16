@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RCM — Control Operativo en Origen</title>
+  <meta name="description" content="RCM digitaliza la operación de tus maquinarias en el origen. Registro de horómetros y combustible 100% offline, con auditoría inmediata para el propietario." />
+
+  <!-- Tipografía RCM: Montserrat (títulos/KPIs) + Inter (cuerpo) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ============ NAV ============ -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <div class="brand">
+        <img src="assets/logo.png" alt="RCM" class="brand__logo" />
+      </div>
+      <button class="btn btn--ghost btn--sm" data-cta="nav">Solicitar acceso Beta</button>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <img src="assets/logo.png" alt="RCM" class="hero__logo" />
+      <span class="eyebrow">CONTROL OPERATIVO EN ORIGEN</span>
+      <h1 class="hero__title">
+        Controla tu eficiencia y costo real de tu jornada agrícola sin depender de
+        planillas de Excel ni reportes borrosos de WhatsApp.
+      </h1>
+      <p class="hero__subtitle">
+        RCM digitaliza la operación de tus maquinarias en el origen. Registro de
+        horómetros y combustible 100% offline para operadores, con auditoría
+        inmediata para el propietario.
+      </p>
+      <div class="hero__actions">
+        <button class="btn btn--primary btn--lg" data-cta="hero">
+          Solicitar acceso al piloto Beta de 30 días
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROBLEMA ============ -->
+  <section class="problem">
+    <div class="container">
+      <span class="section-header">EL PROBLEMA HOY</span>
+      <div class="problem__card">
+        <p class="problem__lead">
+          Hoy, la mayoría de las propiedades en Santa Cruz rinden cuentas enviando
+          fotos sueltas por chat a fin de mes.
+        </p>
+        <div class="problem__grid">
+          <div class="problem__item">
+            <div class="problem__icon">⏱</div>
+            <h3>Desfase de 30 días</h3>
+            <p>Te enteras de lo que pasó en el campo un mes tarde, cuando ya no hay nada que corregir.</p>
+          </div>
+          <div class="problem__item">
+            <div class="problem__icon">∿</div>
+            <h3>Horas mal contabilizadas</h3>
+            <p>Tiempos imposibles de auditar y un horómetro que nadie cruza con la realidad.</p>
+          </div>
+          <div class="problem__item">
+            <div class="problem__icon">⛽</div>
+            <h3>Desvíos ocultos de diésel</h3>
+            <p>Litros que salen del tanque y no aparecen en ningún reporte confiable.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA FINAL ============ -->
+  <section class="closer">
+    <div class="container">
+      <div class="closer__card">
+        <h2 class="closer__title">Empieza a auditar tu operación esta campaña.</h2>
+        <p class="closer__sub">Acceso al piloto Beta de 30 días para propiedades mecanizadas de Santa Cruz.</p>
+        <button class="btn btn--accent btn--lg" data-cta="closer">
+          Solicitar acceso al piloto Beta de 30 días
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <img src="assets/logo.png" alt="RCM" class="brand__logo brand__logo--sm" />
+      <span class="footer__note">Registro de Combustible y Maquinaria · Santa Cruz, Bolivia</span>
+    </div>
+  </footer>
+
+  <!-- ============ MODAL: FLUJO ============ -->
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal__close" data-close aria-label="Cerrar">&times;</button>
+
+      <!-- PASO 1: Formulario -->
+      <div class="step" data-step="form">
+        <span class="section-header">PASO 1 DE 2 · TUS DATOS</span>
+        <h2 class="modal__title" id="modalTitle">Solicita acceso al piloto Beta</h2>
+        <p class="modal__lead">Cupos limitados para esta campaña. Déjanos tus datos y te contactamos.</p>
+        <form id="leadForm" novalidate>
+          <label class="field">
+            <span>Nombre</span>
+            <input type="text" name="nombre" required autocomplete="name" placeholder="Tu nombre completo" />
+          </label>
+          <label class="field">
+            <span>Empresa</span>
+            <input type="text" name="empresa" required autocomplete="organization" placeholder="Nombre de la propiedad o empresa" />
+          </label>
+          <label class="field">
+            <span>Ubicación de la propiedad</span>
+            <input type="text" name="ubicacion" required placeholder="Ej: Pailón, Santa Cruz" />
+          </label>
+          <label class="field">
+            <span>Número de maquinarias</span>
+            <input type="number" name="maquinarias" required min="1" inputmode="numeric" placeholder="Ej: 4" />
+          </label>
+          <button type="submit" class="btn btn--primary btn--block btn--lg">Continuar</button>
+        </form>
+      </div>
+
+      <!-- PASO 2: Pricing -->
+      <div class="step" data-step="pricing" hidden>
+        <span class="section-header">PASO 2 DE 2 · ELIGE TU PLAN</span>
+        <h2 class="modal__title">¿Qué plan se ajusta a tu operación?</h2>
+        <p class="modal__lead">Selecciona un plan para reservar tu lugar en el piloto.</p>
+        <div class="plans">
+          <button class="plan" data-plan="propiedad_familiar">
+            <div class="plan__head">
+              <span class="plan__name">Plan Propiedad Familiar</span>
+            </div>
+            <div class="plan__price"><strong>USD 29</strong><span>/mes</span></div>
+            <p class="plan__detail">Hasta 3 máquinas</p>
+            <span class="plan__select">Elegir este plan →</span>
+          </button>
+          <button class="plan" data-plan="agro_mecanizado">
+            <div class="plan__head">
+              <span class="plan__name">Plan Agro-Mecanizado</span>
+            </div>
+            <div class="plan__price"><strong>USD 99</strong><span>/mes</span></div>
+            <p class="plan__detail">Maquinarias ilimitadas + alertas de diésel</p>
+            <span class="plan__select">Elegir este plan →</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- PASO 3: Confirmación -->
+      <div class="step step--confirm" data-step="confirm" hidden>
+        <div class="confirm__check">✓</div>
+        <h2 class="modal__title">¡Estás dentro del piloto!</h2>
+        <p class="modal__lead">
+          RCM está en fase de piloto / preventa. Revisamos tu perfil y te
+          contactamos en un plazo de <strong>3 días hábiles</strong> para coordinar
+          tu acceso de 30 días.
+        </p>
+        <button class="btn btn--primary btn--block btn--lg" data-close>Entendido</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
