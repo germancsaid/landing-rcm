@@ -29,6 +29,17 @@ function doPost(e) {
       data.telefono || "",
       data.plan || ""
     ]);
+    leads.appendRow([
+      data.ts || new Date().toISOString(),
+      type,
+      data.sid || "",
+      data.nombre || "",
+      data.empresa || "",
+      data.ubicacion || "",
+      data.maquinarias || "",
+      data.telefono || "",
+      data.plan || ""
+    ]);
   } else {
     var eventos = getOrCreateSheet(ss, "Eventos", [
       "ts", "event", "sid", "depth", "source", "plan", "unique", "referrer"
