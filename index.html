@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>RCM — Control Operativo en Origen</title>
+  <title>CONTROL OPERATIVO Y COMBUSTIBLE DE CAMPO</title>
   <meta name="description" content="RCM digitaliza la operación de tus maquinarias en el origen. Registro de horómetros y combustible 100% offline, con auditoría inmediata para el propietario." />
 
   <!-- Tipografía RCM: Montserrat (títulos/KPIs) + Inter (cuerpo) -->
@@ -18,20 +18,22 @@
   <header class="nav">
     <div class="container nav__inner">
       <div class="brand">
-        <img src="assets/logo.png" alt="RCM" class="brand__logo" />
+        <img src="assets/logo-foreground-dark.png" alt="RCM" class="brand__logo" />
       </div>
-      <button class="btn btn--blue btn--sm" data-cta="nav">Solicitar acceso anticipado</button>
+      <nav class="nav__links">
+        <a href="#preview" class="nav__link">Cómo funciona</a>
+        <a href="#problem" class="nav__link">El problema</a>
+      </nav>
+      <button class="btn btn--blue btn--sm" data-cta="nav">Registrate para mas informacion</button>
     </div>
   </header>
 
   <!-- ============ HERO ============ -->
-  <section class="hero" style="background-image: url('assets/hero.png');">
+  <section id="hero" class="hero" style="background-image: url('assets/hero.png');">
     <div class="container hero__inner">
-      <img src="assets/logo.png" alt="RCM" class="hero__logo" />
-      <span class="eyebrow speed-line">CONTROL OPERATIVO EN ORIGEN</span>
+      <span class="eyebrow speed-line">CONTROL OPERATIVO Y COMBUSTIBLE DE CAMPO</span>
       <h1 class="hero__title">
-        Controla tu <em>eficiencia y costo real</em> de tu jornada agrícola sin depender de
-        planillas de Excel ni reportes borrosos de WhatsApp.
+        Controla tu <em>operacion y combustible</em> sin depender de Excel y Whatsapp. Auditoría inmediata, sin importar dónde estes.
       </h1>
       <p class="hero__subtitle">
         RCM digitaliza la operación de tus maquinarias en el origen. Registro de
@@ -40,14 +42,14 @@
       </p>
       <div class="hero__actions">
         <button class="btn btn--primary btn--lg" data-cta="hero">
-          Solicitar acceso anticipado de 30 días
+          Registrate para mas informacion
         </button>
       </div>
     </div>
   </section>
 
   <!-- ============ PREVIEW (vistazo sutil) ============ -->
-  <section class="preview">
+  <section id="preview" class="preview">
     <div class="container">
       <div class="preview__head">
         <span class="section-header speed-line">UN VISTAZO</span>
@@ -69,44 +71,40 @@
   </section>
 
   <!-- ============ PROBLEMA ============ -->
-  <section class="problem">
+  <section id="problem" class="problem" style="background-image: url('assets/problem.png');">
     <div class="container">
-      <span class="section-header">EL PROBLEMA HOY</span>
-      <!-- Foto de fondo con problemas superpuestos -->
-      <div class="problem__visual">
-        <img src="assets/problem.png" alt="Operador anotando en cuaderno en el campo" loading="lazy" class="problem__bg" />
-        <div class="problem__overlay">
-          <p class="problem__lead">
-            Hoy, la mayoría de las propiedades en Santa Cruz rinden cuentas enviando fotos sueltas por chat a fin de mes.
-          </p>
-          <div class="problem__grid">
-            <div class="problem__item">
-              <div class="problem__icon">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                  <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
-                </svg>
-              </div>
-              <h3>Desfase de 30 días</h3>
-              <p>Te enteras de lo que pasó en el campo un mes tarde, cuando ya no hay nada que corregir.</p>
+      <div class="problem__inner">
+        <span class="section-header">EL PROBLEMA HOY</span>
+        <p class="problem__lead">
+          Hoy, la mayoría de las propiedades en Santa Cruz rinden cuentas enviando fotos sueltas por chat a fin de mes.
+        </p>
+        <div class="problem__grid">
+          <div class="problem__item">
+            <div class="problem__icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+              </svg>
             </div>
-            <div class="problem__item">
-              <div class="problem__icon">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/>
-                </svg>
-              </div>
-              <h3>Horas mal contabilizadas</h3>
-              <p>Tiempos imposibles de auditar y un horómetro que nadie cruza con la realidad.</p>
+            <h3>Desfase de 30 días</h3>
+            <p>Te enteras de lo que pasó en el campo un mes tarde, cuando ya no hay nada que corregir.</p>
+          </div>
+          <div class="problem__item">
+            <div class="problem__icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/>
+              </svg>
             </div>
-            <div class="problem__item">
-              <div class="problem__icon">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M12 2C6.48 2 2 8 2 13a10 10 0 0 0 20 0c0-5-4.48-11-10-11z"/>
-                </svg>
-              </div>
-              <h3>Desvíos ocultos de diésel</h3>
-              <p>Litros que salen del tanque y no aparecen en ningún reporte confiable.</p>
+            <h3>Horas mal contabilizadas</h3>
+            <p>Tiempos imposibles de auditar y un horómetro que nadie cruza con la realidad.</p>
+          </div>
+          <div class="problem__item">
+            <div class="problem__icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2C6.48 2 2 8 2 13a10 10 0 0 0 20 0c0-5-4.48-11-10-11z"/>
+              </svg>
             </div>
+            <h3>Desvíos ocultos de diésel</h3>
+            <p>Litros que salen del tanque y no aparecen en ningún reporte confiable.</p>
           </div>
         </div>
       </div>
@@ -114,13 +112,13 @@
   </section>
 
   <!-- ============ CTA FINAL ============ -->
-  <section class="closer">
+  <section id="closer" class="closer">
     <div class="container">
       <div class="closer__card">
         <h2 class="closer__title">Empieza a auditar tu operación esta campaña.</h2>
         <p class="closer__sub">Acceso anticipado de 30 días para propiedades mecanizadas de Santa Cruz.</p>
         <button class="btn btn--accent btn--lg" data-cta="closer">
-          Solicitar acceso anticipado de 30 días
+          Registrate para mas informacion
         </button>
       </div>
     </div>
@@ -128,7 +126,14 @@
 
   <footer class="footer">
     <div class="container footer__inner">
-      <img src="assets/logo.png" alt="RCM" class="brand__logo brand__logo--sm" />
+      <div class="footer__brand">
+        <img src="assets/logo-foreground-dark.png" alt="RCM" class="footer__logo" />
+        <span class="footer__tagline">Control operativo y combustible de campo</span>
+      </div>
+      <div class="footer__links">
+        <a href="#preview" class="footer__link">Cómo funciona</a>
+        <a href="#problem" class="footer__link">El problema</a>
+      </div>
       <span class="footer__note">Registro de Combustible y Maquinaria · Santa Cruz, Bolivia</span>
     </div>
   </footer>
@@ -175,6 +180,15 @@
         <h2 class="modal__title">¿Qué plan se ajusta a tu operación?</h2>
         <p class="modal__lead">Selecciona un plan para reservar tu lugar en la preventa.</p>
         <div class="plans">
+          <button class="plan plan--featured" data-plan="gratis_lanzamiento">
+            <span class="plan__badge">🔥 Solo esta semana</span>
+            <div class="plan__head">
+              <span class="plan__name">Plan Lanzamiento</span>
+            </div>
+            <div class="plan__price"><strong>Gratis</strong><span>/30 días</span></div>
+            <p class="plan__detail">Operadores y maquinarias ilimitados. Sin compromiso.</p>
+            <span class="plan__select">Reclamar acceso →</span>
+          </button>
           <button class="plan" data-plan="inicial">
             <div class="plan__head">
               <span class="plan__name">Plan Inicial</span>
