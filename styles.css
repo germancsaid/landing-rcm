@@ -243,6 +243,50 @@ h1, h2, h3 { font-family: "Montserrat", sans-serif; }
 .phone--side:first-child { transform: translateY(24px) scale(0.96) rotate(-3deg); }
 .phone--side:last-child { transform: translateY(24px) scale(0.96) rotate(3deg); }
 
+/* ---------------- Cómo funciona (pasos, cuerpo claro) ---------------- */
+.how { padding: 48px 0 24px; }
+.how__head { text-align: center; max-width: 600px; margin: 0 auto 44px; }
+.how__head .speed-line::after { margin-left: auto; margin-right: auto; }
+.how__title {
+  margin: 14px 0 8px;
+  font-size: clamp(24px, 3.5vw, 32px);
+  font-weight: 800;
+  letter-spacing: -0.4px;
+  color: var(--primary-dark);
+}
+.how__sub { color: var(--secondary); font-size: 16px; }
+.how__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+.how__step {
+  background: var(--surface);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--r-lg);
+  padding: 28px 24px;
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+.how__step:hover {
+  border-color: var(--border-gold);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-card);
+}
+.how__num {
+  display: grid; place-items: center;
+  width: 40px; height: 40px;
+  border-radius: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  color: #1b1411;
+  background: var(--gold-grad);
+  box-shadow: 0 6px 16px rgba(244, 194, 13, 0.28);
+  margin-bottom: 18px;
+}
+.how__step h3 { font-size: 16px; font-weight: 700; margin-bottom: 8px; color: var(--primary-dark); }
+.how__step p { font-size: 14px; color: var(--secondary); line-height: 1.5; }
+
 /* ---------------- Problema (hero con foto de fondo) ---------------- */
 .problem {
   position: relative;
@@ -523,6 +567,7 @@ h1, h2, h3 { font-family: "Montserrat", sans-serif; }
   .problem__visual { min-height: 560px; }
   .problem__overlay { padding: 28px 22px; min-height: 560px; }
   .problem__grid { grid-template-columns: 1fr; }
+  .how__grid { grid-template-columns: 1fr; }
   .closer__card { padding: 44px 24px; }
   .modal__dialog { padding: 30px 22px; }
 }

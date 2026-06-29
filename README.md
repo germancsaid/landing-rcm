@@ -11,9 +11,9 @@ producto. No es el lanzamiento ni una versión del app.
 
 ## Flujo
 
-1. Visitante lee propuesta de valor y problema.
-2. CTA → formulario de 4 campos (Nombre, Empresa, Ubicación, N° de maquinarias).
-3. Enviar → pantalla de pricing (2 planes, **ninguno destacado**).
+1. Visitante lee propuesta de valor, cómo funciona y problema.
+2. CTA → formulario de 5 campos (Nombre, Empresa, Ubicación, N° de maquinarias, Teléfono).
+3. Enviar → pantalla de pricing (3 planes: Free / Pro / Max, **ninguno destacado** para no sesgar la elección).
 4. Elige plan → confirmación "estás en fase de piloto/preventa, te contactamos en 3 días". No hay checkout real.
 
 ## Eventos instrumentados (ver consola)
@@ -36,6 +36,22 @@ var ANALYTICS_ENDPOINT = ""; // opcional: hoja aparte para eventos
 Opción rápida: un **Google Apps Script** publicado como Web App que recibe el
 POST y agrega una fila al Sheet. Los leads llegan con todos los campos para
 filtrar manualmente el perfil calificado después.
+
+### Hojas que genera el Apps Script (`apps-script.gs`)
+
+- **Visitantes** — un registro por visita (page_view), aunque no dejen el
+  formulario: `sid`, único, referrer, `utm_*`, userAgent, idioma, pantalla, viewport.
+- **Leads** — formularios enviados y elección de plan (conversión).
+- **Eventos** — funnel (scroll_depth, cta_click, form_open, etc.).
+- **Resumen** — métricas en vivo: visitas, visitantes únicos, leads, selección
+  de plan y **% de conversión** (visitantes → leads). Se actualiza en cada visita.
+
+Además, abrir la **URL de la Web App** en el navegador (`doGet`) devuelve esas
+métricas en JSON para un chequeo rápido.
+
+> Tras editar `apps-script.gs` hay que **volver a pegarlo en Apps Script y
+> re-desplegar** la Web App (Implementar → Administrar implementaciones → editar
+> → Nueva versión) para que los cambios apliquen.
 
 ## Probar localmente
 

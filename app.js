@@ -58,11 +58,33 @@
     }
   }
 
+  /* ---- Datos del visitante (se guardan aunque no deje el formulario) ---- */
+  function getParam(name) {
+    try {
+      return new URLSearchParams(location.search).get(name) || "";
+    } catch (e) {
+      return "";
+    }
+  }
+
+  function collectVisitor() {
+    return {
+      referrer: document.referrer || null,
+      utm_source: getParam("utm_source"),
+      utm_medium: getParam("utm_medium"),
+      utm_campaign: getParam("utm_campaign"),
+      userAgent: navigator.userAgent || "",
+      language: navigator.language || "",
+      screen: window.screen ? window.screen.width + "x" + window.screen.height : "",
+      viewport: window.innerWidth + "x" + window.innerHeight,
+    };
+  }
+
   /* ---- Page view único (por navegador, persistente) ---- */
   (function pageView() {
     var firstTime = !localStorage.getItem("rcm_seen");
     if (firstTime) localStorage.setItem("rcm_seen", "1");
-    track("page_view", { unique: firstTime, referrer: document.referrer || null });
+    track("page_view", Object.assign({ unique: firstTime }, collectVisitor()));
   })();
 
   /* ---- Scroll depth (25 / 50 / 75 / 100) ---- */
