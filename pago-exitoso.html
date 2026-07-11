@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Pago exitoso · RCM</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #F9FAFB; --card1: #1B1919; --card2: #1A2F4C;
+    --gold: #E8B040; --green: #16A34A; --white: #FFFFFF;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: 'Inter', system-ui, sans-serif; background: var(--bg);
+    margin: 0; min-height: 100vh; display: flex; align-items: center;
+    justify-content: center; padding: 24px;
+  }
+  .card {
+    width: 100%; max-width: 380px;
+    background: linear-gradient(135deg, var(--card1), var(--card2));
+    border-radius: 24px; padding: 40px 28px; text-align: center;
+    box-shadow: 0 20px 48px rgba(27,25,25,0.18);
+  }
+  .check {
+    width: 76px; height: 76px; margin: 0 auto 24px; border-radius: 50%;
+    background: rgba(22,163,74,0.15); border: 2px solid rgba(22,163,74,0.5);
+    display: flex; align-items: center; justify-content: center;
+  }
+  .check svg { width: 38px; height: 38px; stroke: var(--green); }
+  .badge {
+    display: inline-block; font-size: 11px; font-weight: 800; letter-spacing: 1.5px;
+    color: var(--gold); background: rgba(232,176,64,0.14);
+    border: 1px solid rgba(232,176,64,0.3); border-radius: 10px;
+    padding: 5px 12px; margin-bottom: 18px;
+  }
+  h1 {
+    font-family: 'Montserrat', sans-serif; font-weight: 900; color: var(--white);
+    font-size: 26px; letter-spacing: -0.5px; margin: 0 0 10px;
+  }
+  p { color: rgba(255,255,255,0.7); font-size: 14px; line-height: 1.5; margin: 0 0 28px; }
+  a.btn {
+    display: block; background: var(--gold); color: var(--card1);
+    font-weight: 800; font-size: 14px; letter-spacing: 0.5px; text-decoration: none;
+    padding: 16px; border-radius: 14px; transition: transform 0.12s ease;
+  }
+  a.btn:active { transform: scale(0.98); }
+  .muted { opacity: 0.6; }
+</style></head>
+<body>
+  <div class="card">
+    <div class="check">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M20 6L9 17l-5-5"/>
+      </svg>
+    </div>
+    <span class="badge" id="badge">CONFIRMANDO…</span>
+    <h1 id="title">Un momento…</h1>
+    <p id="msg">Estamos confirmando tu pago.</p>
+    <a class="btn" id="cta" href="rcm://subscription/success">VOLVER A RCM</a>
+  </div>
+  <script>
+    // URL pública de la API de RCM.
+    var API_BASE = 'https://rcm-api.koddo.tech';
+
+    function getParam(name) {
+      return new URLSearchParams(window.location.search).get(name);
+    }
+
+    function showConfirmed() {
+      document.getElementById('badge').textContent = 'PAGO CONFIRMADO';
+      document.getElementById('title').textContent = '¡Todo listo!';
+      document.getElementById('msg').textContent =
+        'Tu suscripción se está activando. Vuelve a la app de RCM para empezar a disfrutar tu plan.';
+      // Deep link automático de vuelta a la app.
+      setTimeout(function () { window.location.href = 'rcm://subscription/success'; }, 800);
+    }
+
+    function showPending() {
+      document.getElementById('badge').textContent = 'EN PROCESO';
+      document.getElementById('title').textContent = 'Estamos confirmando tu pago';
+      document.getElementById('msg').innerHTML =
+        'Si acabas de pagar, tu suscripción se activará en unos segundos. ' +
+        '<span class="muted">Vuelve a la app de RCM para verla.</span>';
+    }
+
+    (function () {
+      var token = getParam('token');
+      if (!token) { showPending(); return; }
+      fetch(API_BASE + '/subscriptions/checkout-success/verify?token=' + encodeURIComponent(token))
+        .then(function (r) { return r.json(); })
+        .then(function (d) { d && d.valid ? showConfirmed() : showPending(); })
+        .catch(function () { showPending(); });
+    })();
+  </script>
+</body></html>
