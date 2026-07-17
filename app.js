@@ -231,4 +231,32 @@
       track("confirm_view", { plan: planId });
     });
   });
+
+  /* --------------------------------------------------------------------
+     NEWSLETTER (footer) — solo analítica, no dispara la preventa.
+     -------------------------------------------------------------------- */
+  var newsletterForm = document.getElementById("newsletterForm");
+  if (newsletterForm) {
+    newsletterForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var email = newsletterForm.email.value.trim();
+      if (!email) return;
+      track("newsletter_submit", { email: email });
+      if (FORM_ENDPOINT) {
+        fetch(FORM_ENDPOINT, {
+          method: "POST",
+          mode: "no-cors",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ type: "newsletter", email: email, sid: sessionId, ts: new Date().toISOString() }),
+        }).catch(function () {});
+      }
+      newsletterForm.reset();
+      var btn = newsletterForm.querySelector("button");
+      if (btn) {
+        var original = btn.textContent;
+        btn.textContent = "✓";
+        setTimeout(function () { btn.textContent = original; }, 1800);
+      }
+    });
+  }
 })();
