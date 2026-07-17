@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="es"><head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Pago exitoso · RCM</title>
+<title>Pago exitoso · Tracktor</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
@@ -57,7 +57,7 @@
     <span class="badge" id="badge">CONFIRMANDO…</span>
     <h1 id="title">Un momento…</h1>
     <p id="msg">Estamos confirmando tu pago.</p>
-    <a class="btn" id="cta" href="rcm://subscription/success">VOLVER A RCM</a>
+    <a class="btn" id="cta" href="rcm://subscription/success">VOLVER A TRACKTOR</a>
   </div>
   <script>
     // URL pública de la API de RCM.
@@ -71,7 +71,7 @@
       document.getElementById('badge').textContent = 'PAGO CONFIRMADO';
       document.getElementById('title').textContent = '¡Todo listo!';
       document.getElementById('msg').textContent =
-        'Tu suscripción se está activando. Vuelve a la app de RCM para empezar a disfrutar tu plan.';
+        'Tu suscripción se está activando. Vuelve a la app de Tracktor para empezar a disfrutar tu plan.';
       // Deep link automático de vuelta a la app.
       setTimeout(function () { window.location.href = 'rcm://subscription/success'; }, 800);
     }
@@ -81,7 +81,7 @@
       document.getElementById('title').textContent = 'Estamos confirmando tu pago';
       document.getElementById('msg').innerHTML =
         'Si acabas de pagar, tu suscripción se activará en unos segundos. ' +
-        '<span class="muted">Vuelve a la app de RCM para verla.</span>';
+        '<span class="muted">Vuelve a la app de Tracktor para verla.</span>';
     }
 
     (function () {
