@@ -14,3 +14,10 @@ Dos-tres capturas reales de pantalla de la app en mockups de celular, mostrando 
 
 ## Nota
 Esta slide describe QUÉ es el producto y CÓMO funciona. No mezclar con la propuesta de valor (slide 3) — ahí va el POR QUÉ le conviene al cliente en plata.
+
+
+## Observaciones revision
+- Mucho enfoque en el flujo de operacion que genera mas valor
+- Mostrar y decir que hace
+- Que hace como entrega valor al usuario que paga como esta relacionado con el dolor 
+- Como se llego al solution customer fit

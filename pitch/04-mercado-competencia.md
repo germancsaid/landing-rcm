@@ -17,3 +17,11 @@ Dos bloques en la misma slide:
 ## Fuentes
 - CAO — 21,000 empresas medianas/grandes en Santa Cruz (2025)
 - Agrosinergia/IBCE — Santa Cruz 71% de la producción agrícola nacional (2023)
+
+## Observaciones revision
+- Poner números en todos los datos
+- Hablar de la competencia y cómo nos diferenciamos
+- Poner insights como la tecnología y la IA están entrando en LATAM
+- Para que el valor es aparte de números sino la potencialidad del mercado
+- La tendencia a futuro: incremento del mercado y adopción de IA
+- Poner iconos de la competencia, logos y diagrama de diferenciadores 

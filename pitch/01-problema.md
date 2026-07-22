@@ -23,3 +23,9 @@ Slide dividida en dos mitades:
 - 700 ha, 5 máquinas, 5 operadores, diésel a 10.6 Bs/litro, $2 USD/hora — **validados por Charls**
 - Días/horas trabajadas al año (180 días × 8h) — **supuesto, sin validar**
 - % de fuga de diésel (7%) — **supuesto basado en proxy de industria logística, sin validar en agro**
+
+
+## Observaciones revision
+- Hablar del costo del dolor
+- Comunicar no solo el dolor y costo actual, sino la proyeccion de que este segmento e industria crece
+- Hablar de que la tendencia para el agro es la digitalizacion
