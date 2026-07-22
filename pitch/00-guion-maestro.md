@@ -27,15 +27,15 @@ Existe costo hundido: el productor paga personal administrativo solo para esta t
 #### PORQUE IMPORTA
 El problema es de todos los días, 11 meses al año y/o en cada ciclo de siembra y cosecha. La espera al cierre de mes le impide al productor reaccionar a tiempo ante desvíos de trabajo o combustible.
 
-**Costo real: las ~4,200 empresas grandes de Santa Cruz (6% de los 70,000 productores de CAO, 2025) pierden un estimado de ~$21M USD/año — cerca de $4,960 USD por propiedad.**
+**Costo real: las ~4,200 empresas grandes de Santa Cruz (6% de los 70,000 productores de CAO, 2025) pierden un estimado de ~$21.7M USD/año — cerca de $5,164 USD por propiedad.**
 
 Cálculo por propiedad/año:
 
 - **Fuga de diésel: ~$3,920** — 700 ha × 80 L/ha (MDRyT) = 56,000 litros ≈ $56,000 de gasto anual en diésel, × 7% de desvío.
 - **Fraude/error en nómina: ~$465** — 4 operadores × 8 h/día × 22 días/mes × 11 meses = 7,744 h/año × $2/hora = $15,488, × 3% de error.
-- **Tiempo administrativo: ~$571** — contador/administrador (5,500 Bs/mes ≈ $519) dedicando 3 días al mes solo a transcribir estos datos.
+- **Tiempo administrativo: ~$779** — contador/administrador (5,500 Bs/mes ≈ $519) dedicando 3 días al mes (de 22 días hábiles) solo a transcribir estos datos, × 11 meses.
 
-**Total: ~$4,960/año por propiedad × 4,200 empresas grandes = ~$21M USD/año.**
+**Total: ~$5,164/año por propiedad × 4,200 empresas grandes = ~$21.7M USD/año.**
 
 Por qué las grandes: son las que cultivan el 94% de la superficie mecanizada de Santa Cruz — 4,200 × 700 ha = 2.94M ha, contra los 3.14M ha cultivados reales del departamento (ANAPO/CAO, 2025/26). El promedio de 700 ha por propiedad se sostiene exactamente en este segmento. Nuestro primer cliente, Círculo H, con 13 máquinas, es una de ellas.
 
@@ -54,17 +54,13 @@ Foto del horómetro y de la bomba de diésel por WhatsApp, transcrita a mano en 
 - El que usa: Operador/tractorista que trabaja en la propiedad, a cargo de la maquinaria a diario operando o durante los ciclos de siembra y cosecha. Rota turnos de hasta 23 horas en ventanas críticas de clima. Cobra un sueldo de $2 USD por hora trabajada. El reporta su trabajo.
 
 #### PRODUCTO
-Producto en una frase: TrackTor es una plataforma de recopilacion de datos asistidos con IA donde se registran operaciones, combustible, servicios y mantenimientos de su maquinaria, asignada por operador, con reportería automática, dictando los datos por voz a un asistente de IA en vez de escribirlos a mano.
-Cómo elimina el dolor: reemplaza por completo el flujo de registros en talonarios o libretas diarios, foto-por-WhatsApp-y-Excel: el operador dicta o registra su jornada en segundos, sin conexión a internet, y el dueño ve el consolidado y las alertas de mantenimiento sin esperar el cierre de mes.
-Diferencial frente al status quo: cada registro va respaldado por una foto de constancia tomada dentro de la misma app no de la galería, no reenviado, dándole al dato el máximo nivel de seguridad y confianza posible. Eso es algo que ni el Excel manual ni la competencia de dictado por WhatsApp pueden ofrecer.
-#### PRODUCTO
-**En una frase:** TrackTor es la plataforma offline-first de captura de datos y asistida por IA con starlink donde el operador registra operaciones, combustible, servicios y mantenimientos de cada máquina asignada por operador con la posibilidad de dictar por voz, con reportería automática para el dueño.
+**En una frase:** TrackTor es la plataforma offline-first de captura de datos, asistida por IA, donde el operador registra por formulario —sin necesidad de conexión— operaciones, combustible, servicios y mantenimientos de cada máquina asignada por operador, con la opción de dictar por voz cuando hay internet disponible, y reportería automática para el dueño.
 
 **Cómo ataca el dolor, punto por punto:**
 
 - **Contra las horas fantasma:** el registro queda asignado a máquina y operador en el momento exacto, con horómetro validado contra el registro anterior. No hay forma de inflar horas sin que el sistema lo marque.
 - **Contra la fuga de diésel:** cada despacho de combustible se registra en origen y se cruza con las horas trabajadas. El desvío se detecta el mismo día, no 30 días después.
-- **Contra el cuello de botella administrativo:** se elimina el flujo de libretas, foto-por-WhatsApp y transcripción a Excel. El operador dicta su jornada en segundos, sin internet; el dueño ve el consolidado y las alertas de mantenimiento sin esperar el cierre de mes.
+- **Contra el cuello de botella administrativo:** se elimina el flujo de libretas, foto-por-WhatsApp y transcripción a Excel. El operador registra su jornada en segundos por formulario, sin necesidad de conexión (y puede dictarla por voz cuando hay internet); el dueño ve el consolidado y las alertas de mantenimiento sin esperar el cierre de mes.
 
 **Diferencial frente al status quo:** cada registro va respaldado por una foto de constancia tomada dentro de la misma app no de la galería, no reenviada, con GPS y hora sellados. Eso convierte el dato más manipulable del campo en el más confiable. Ni el Excel manual ni la competencia que solo dicta por WhatsApp pueden garantizar que el dato es real.
 
@@ -78,7 +74,7 @@ Max: $99 USD/mes, Máquinas ilimitadas, Operadores ilimitados, Fotos, Dictado po
 
 Cálculo: CAO reporta 4,200 empresas grandes en Santa Cruz (6% de 70,000 productores, 2025). Extrapolado a Bolivia usando que Santa Cruz concentra el 71% de la producción agrícola nacional (Agrosinergia / IBCE, 2023): 4,200 ÷ 0.71 ≈ 5,915 empresas grandes en todo el país. Todas en plan Max ($99/mes = $1,188/año), consistente con su escala de flota (Círculo H, nuestro primer cliente, tiene 13 máquinas).
 
-Relación con el dolor: cobramos ~$7M para resolver un problema que le cuesta al segmento ~$29M/año — capturamos ~24% del valor que generamos.
+Relación con el dolor: cobramos ~$7M para resolver un problema que le cuesta al segmento ~$21.7M/año en Santa Cruz — capturamos ~32% del valor que generamos.
 
 Fuentes:
 - [CAO — 70,000 productores, 6% grandes (2025)](https://cao.org.bo/2025/03/13/la-cao-posesiona-a-su-nueva-directiva-gestion-2025-2027/)
@@ -117,10 +113,10 @@ proximo
 Escalar a 50 clientes aprovechando la cartera de Juan Camilo, con el objetivo de que el ARR cruce los $30,000 USD.
 
 despues
-150 clientes en Santa Cruz (menos del 1% del SAM de 21,000)
+150 clientes en Santa Cruz (~3.6% del SAM de 4,200 empresas grandes)
 
 #### EQUIPO
 
-- **Juancamilo** — CEO: experto en implementar tecnología al agro con 15 años de experiencia, posocionado en el segmento como referente tegnologico.
+- **Juan Camilo** — CEO: experto en implementar tecnología al agro con 15 años de experiencia, posicionado en el segmento como referente tecnológico.
 - **Iblin** — CMO: Experta en Marketing y Apertura de Mercados: 10 años de experiencia.
 - **Germán** — CTO: Arquitecto de Sistemas: experto en arquitectura de sistemas con 7 años de experiencia implementando SAP en industrias y creación de productos de software
