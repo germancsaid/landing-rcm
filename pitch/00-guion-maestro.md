@@ -11,6 +11,16 @@ Estructura definida: 8 slides. No es pitch de inversión — el CTA final es vis
 7. [Equipo](07-equipo.md)
 8. [Call to action](08-cta.md)
 
+Slide	Prioridad	Presupuesto	Actual	Diferencia
+01 Problema	Alta — el gancho	70	166	+96 (2.4x sobre)
+02 Solución	La más alta — el "ajá"	78	97	+19
+03 Propuesta de valor	Alta	55	63	+8
+04 Mercado y competencia	Baja — al productor no le importa tu TAM	31	95	+64
+05 Modelo de negocio	Media — precio debe quedar claro	47	70	+23
+06 Métricas	Media-alta — prueba social	47	50	+3
+07 Equipo	Baja — no es pitch de inversión	27	71	+44
+08 CTA	Media, pero corta y contundente	35	41	+6
+Total		390	653	+263
 
 ## Contexto
 ### TRACKTOR

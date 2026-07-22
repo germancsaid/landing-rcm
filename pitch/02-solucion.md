@@ -1,12 +1,8 @@
 # Slide 2 — Solución
 
-## Guion
+## Guion (presupuesto: 78 palabras)
 
-TrackTor es la app móvil offline-first que reemplaza ese flujo por completo. El operador dicta su jornada por voz a un asistente de inteligencia artificial, en segundos, sin necesidad de internet. Cada registro queda respaldado con una foto de constancia tomada dentro de la misma app, con GPS y hora exacta, imposible de falsificar. El dueño ve el consolidado de su operación y las alertas de mantenimiento el mismo día, no un mes después.
-
-Ese nivel de verificación es algo que ni el Excel manual ni la competencia que solo dicta por WhatsApp puede ofrecer.
-
-(89 palabras)
+TrackTor es la app offline-first que reemplaza ese flujo. El operador registra su jornada por formulario en segundos sin conexión, o dicta por voz cuando hay internet. Cada registro incluye una foto tomada dentro de la app, con GPS y hora, imposible de falsificar. El dueño ve el consolidado y las alertas el mismo día, no un mes después — algo que ni Excel ni la competencia por WhatsApp pueden ofrecer.
 
 ## Imagen sugerida
 
@@ -17,7 +13,5 @@ Esta slide describe QUÉ es el producto y CÓMO funciona. No mezclar con la prop
 
 
 ## Observaciones revision
-- Mucho enfoque en el flujo de operacion que genera mas valor
-- Mostrar y decir que hace
-- Que hace como entrega valor al usuario que paga como esta relacionado con el dolor 
-- Como se llego al solution customer fit
+- ✅ Qué hace y cómo funciona: cubierto en el guion (registro offline + voz opcional + foto de constancia).
+- ⚠️ Cómo se relaciona con el dolor del que paga (el dueño), y cómo se llegó al solution-customer fit: no entran en el guion de 78 palabras — esta slide es QUÉ/CÓMO por diseño (ver Nota abajo), el "por qué le conviene en plata" ya vive en la slide 3, y la prueba de solution-customer fit (Círculo H) vive en la slide 6. Si querés, puedo mover una mención breve aquí, pero implica sacarle palabras a otra parte del guion.

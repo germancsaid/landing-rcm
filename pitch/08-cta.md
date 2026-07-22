@@ -1,10 +1,8 @@
 # Slide 8 — Call to action
 
-## Guion
+## Guion (presupuesto: 35 palabras)
 
-TrackTor convierte el dato más manipulable del campo boliviano en el más confiable. Si tenés maquinaria en Santa Cruz, o conocés a alguien que la tiene, entren a tracktor.lat y conozcan la solución. Estamos abriendo cupos para nuevos productores.
-
-(38 palabras)
+TrackTor convierte el dato más manipulable del campo boliviano en el más confiable. Si tenés maquinaria en Santa Cruz, entrá a tracktor.lat y conocé la solución. Estamos abriendo cupos para nuevos productores.
 
 ## Imagen sugerida
 

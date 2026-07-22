@@ -1,12 +1,8 @@
 # Slide 5 — Modelo de negocio inicial
 
-## Guion
+## Guion (presupuesto: 47 palabras)
 
-Cobramos suscripción mensual. Free, para siempre, hasta 2 máquinas y 2 operadores, sin evidencia fotográfica — es la puerta de entrada. Pro, a 49 dólares al mes, hasta 10 máquinas y 10 operadores, con evidencia fotográfica y el asistente de voz. Max, a 99 dólares al mes, máquinas y operadores ilimitados.
-
-Nuestro primer cliente, con 13 máquinas, entró directo al plan más alto, el mismo día del lanzamiento.
-
-(72 palabras)
+Cobramos suscripción mensual: Free, hasta 2 máquinas, sin evidencia fotográfica — la puerta de entrada. Pro, a $59 al mes, con fotos y asistente de voz. Max, a $99, máquinas y operadores ilimitados. Nuestro primer cliente, con 13 máquinas, entró directo a Max el mismo día del lanzamiento.
 
 ## Imagen sugerida
 
