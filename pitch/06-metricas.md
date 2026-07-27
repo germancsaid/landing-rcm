@@ -1,15 +1,15 @@
 # Slide 6 — Métricas a la fecha
 
-## ⚠️ Pendiente de definir
-El feedback pedía DAU y tiempo promedio en plataforma. A una semana de lanzamiento, sin volumen, esos números no van a ser representativos (y puede que ni estén instrumentados todavía en Firebase/Mixpanel/lo que uses). Mientras se confirma si hay esa analítica, este borrador usa las métricas que sí son reales y contundentes hoy.
+## ✅ Resuelto: usabilidad real, no potencialidad
+Pediste que esta slide muestre uso actual del producto, no futuro ni pipeline — así que saqué "26 en lista de espera" de acá (eso es potencial, no uso; ya vive en el Roadmap del 00). En su lugar, datos de actividad real: 2 usuarios activos, 13 máquinas gestionadas, 8 operadores registrando, y 14 registros por máquina cada semana. Esto es mejor que un DAU genérico — le dice a la audiencia exactamente qué tan seguido se usa el producto en campo.
 
 ## Guion (presupuesto: 47 palabras)
 
-Lanzamos hace poco más de una semana. Círculo H, con 13 máquinas, se suscribió el mismo día a nuestro plan más alto. Hoy tenemos 2 clientes activos, 9 operadores registrando en campo, y 26 propiedades más en lista de espera.
+Llevamos poco más de una semana en producción. Hoy 2 clientes activos gestionan 13 máquinas con 8 operadores, generando 14 registros por máquina cada semana: más de 180 registros reales de campo, no proyectados. Círculo H es uno de ellos.
 
 ## Imagen sugerida
 
-3-4 stat callouts grandes en fila: "1 semana" / "2 clientes" / "9 operadores activos" / "26 leads en espera". Mismo estilo visual que la slide de Tracción del deck maestro en pptx.
+4 stat callouts grandes en fila: "2 clientes activos" / "13 máquinas gestionadas" / "8 operadores" / "14 registros/máquina por semana" (con "182 registros totales/semana" como subtítulo chico debajo del último). Mismo estilo visual que la slide de Tracción del deck maestro en pptx — nada de "26 leads" ni "1 semana" acá, esos son otro tipo de dato (pipeline, no uso).
 
-## Para reemplazar cuando haya data
-Si activás Firebase/Mixpanel antes del pitch, reemplazar o sumar: DAU, tiempo promedio de sesión, tasa de retención semana 1. Avisame cuando tengas esos números y reescribo el guion.
+## Nota de cálculo
+14 registros/máquina/semana × 13 máquinas = 182 registros de campo por semana. Si tenés el dato exacto de registros totales acumulados desde el lanzamiento (no solo el promedio semanal), decímelo y lo agrego como stat adicional — es aún más contundente que el promedio.
