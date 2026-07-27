@@ -38,6 +38,6 @@ Slide dividida en dos mitades:
 - ⚠️ Proyección de crecimiento del segmento y tendencia de digitalización: no entra en el guion hablado — el presupuesto de 70 palabras no alcanza. Movido a la imagen sugerida como stat visual ("AgTech +15% anual") para que quede en pantalla sin gastar tiempo hablado. Fuentes abajo, por si lo usás en otra slide con más espacio (ej. 04, si decidís asignarle más presupuesto).
 - ✅ Observación de los mentores de la incubadora: cambiar de monto fijo a % de la operación. Hecho — el guion ahora dice "7% del diésel" y "3% de las horas" en vez de "$5,164 por propiedad". Cualquier productor, tenga 2 máquinas o 20, puede ubicarse en esos porcentajes; el monto fijo solo funcionaba para quien opera a la escala exacta que usamos para calcularlo (700 ha, 4 máquinas).
 
-## Pendiente — revisar slide 3 (Propuesta de valor)
+## ✅ Resuelto — slide 3 (Propuesta de valor)
 
-El mismo argumento de los mentores aplica ahí: la slide 3 dice "un productor pierde en promedio $5,164 al año" y calcula el retorno de TrackTor (4x-7x) contra ese monto fijo. Si el problema (slide 1) ahora habla en %, la propuesta de valor con un monto fijo puede sonar inconsistente para la misma audiencia que no opera a esa escala. No lo toqué todavía porque no me lo pediste — decime si querés que la slide 3 también hable en % (ej. "recuperás en TrackTor varias veces el valor de ese 7-10% que hoy perdés sin saberlo") o si ahí sí querés dejar el monto fijo porque ayuda a justificar el precio en dólares.
+Ya se replanteó: ahora habla de los mismos % que esta slide (7% diésel, 3% horas) y explica el mecanismo por el que dejan de perderse, sin monto fijo en dólares. El precio vive en la slide 5.
