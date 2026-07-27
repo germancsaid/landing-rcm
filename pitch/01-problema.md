@@ -2,15 +2,15 @@
 
 ## Guion (presupuesto: 70 palabras — pitch de 3 min / 8 slides)
 
-Todos los días, en propiedades grandes de Santa Cruz, un operador fotografía horómetro y bomba de diésel, y las manda por WhatsApp. Días después, alguien las transcribe a Excel, cuando ya no hay nada que corregir.
+Todos los días, en propiedades grandes de Santa Cruz, un operador fotografía horómetro, bomba de diésel y libreta diaria, y las manda por WhatsApp. Días después, alguien las transcribe a Excel, cuando ya no hay nada que corregir.
 
-Esto cuesta al sector $21.7 millones al año: cerca de $5,164 por propiedad, en horas mal registradas y diésel que nadie detecta a tiempo. Validamos el dolor con el 80% de los productores entrevistados.
+Sin auditoría en el momento, se pierde hasta 7% del diésel despachado y 3% en horas mal registradas, cada mes. Validamos el dolor con el 80% de productores entrevistados.
 
 ## Imagen sugerida
 
 Slide dividida en dos mitades:
 - **Izquierda:** foto real (o recreación) de un horómetro fotografiado con celular en pleno campo — textura real, no ícono genérico.
-- **Derecha:** stat grande "$5,164 USD/año por propiedad", con fuente (CAO 2025, MDRyT) en letra chica debajo. Opcional: una línea pequeña abajo con el dato de crecimiento del mercado (AgTech, +15% anual) para reforzar que el problema —y la oportunidad— crecen.
+- **Derecha:** dos stats grandes en vez del monto fijo — "7% del diésel" y "3% de las horas", con fuente (CAO 2025, MDRyT, proxy de flotas LatAm) en letra chica debajo. Cambio pedido por los mentores de la incubadora: hablar en % de la operación de cada productor, no en un monto fijo ($5,164), porque no toda la audiencia opera a la escala del segmento que usamos para calcularlo. Opcional: una línea pequeña abajo con el dato de crecimiento del mercado (AgTech, +15% anual) para reforzar que el problema —y la oportunidad— crecen.
 
 ## Fuentes
 
@@ -35,5 +35,9 @@ Slide dividida en dos mitades:
 
 ## Estado de las observaciones de revisión
 
-- ✅ Costo del dolor: presente y con cifra corregida ($21.7M / $5,164 por propiedad, alineado con el guion maestro).
 - ⚠️ Proyección de crecimiento del segmento y tendencia de digitalización: no entra en el guion hablado — el presupuesto de 70 palabras no alcanza. Movido a la imagen sugerida como stat visual ("AgTech +15% anual") para que quede en pantalla sin gastar tiempo hablado. Fuentes abajo, por si lo usás en otra slide con más espacio (ej. 04, si decidís asignarle más presupuesto).
+- ✅ Observación de los mentores de la incubadora: cambiar de monto fijo a % de la operación. Hecho — el guion ahora dice "7% del diésel" y "3% de las horas" en vez de "$5,164 por propiedad". Cualquier productor, tenga 2 máquinas o 20, puede ubicarse en esos porcentajes; el monto fijo solo funcionaba para quien opera a la escala exacta que usamos para calcularlo (700 ha, 4 máquinas).
+
+## Pendiente — revisar slide 3 (Propuesta de valor)
+
+El mismo argumento de los mentores aplica ahí: la slide 3 dice "un productor pierde en promedio $5,164 al año" y calcula el retorno de TrackTor (4x-7x) contra ese monto fijo. Si el problema (slide 1) ahora habla en %, la propuesta de valor con un monto fijo puede sonar inconsistente para la misma audiencia que no opera a esa escala. No lo toqué todavía porque no me lo pediste — decime si querés que la slide 3 también hable en % (ej. "recuperás en TrackTor varias veces el valor de ese 7-10% que hoy perdés sin saberlo") o si ahí sí querés dejar el monto fijo porque ayuda a justificar el precio en dólares.

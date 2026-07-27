@@ -17,8 +17,6 @@ Dos bloques en la misma slide — la mayoría del contenido pedido en las observ
 - [FieldData — landing.fielddata.ag](https://landing.fielddata.ag/home) — registro por WhatsApp (texto o audio), +10,000 campos gestionados, +6,000 productores en Argentina, Uruguay, Paraguay, Chile y Bolivia, planes desde $35 USD/mes.
 
 ## Observaciones revision — estado
-- ✅ Números en los datos que sí caben en el guion: SAM/TAM corregidos.
-- ✅ Competencia y diferenciación: mencionada en el guion con nombre real (FieldData) y ampliada en la imagen (comparación de 3 columnas + logo).
 - ⚠️ Insights de IA entrando a LATAM / tendencia de adopción a futuro: no caben en 31 palabras habladas — movidos a la imagen como stat de apoyo.
 - ⚠️ "Potencialidad del mercado" más allá de números: con este presupuesto de palabras, la slide solo alcanza para el número + una línea de competencia. Si esto importa más que el equipo (slide 7, 27 palabras) o que las métricas (slide 6, 47 palabras), decime y le quito presupuesto a esas para dárselo a esta.
 

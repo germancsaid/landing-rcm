@@ -13,5 +13,4 @@ Esta slide describe QUÉ es el producto y CÓMO funciona. No mezclar con la prop
 
 
 ## Observaciones revision
-- ✅ Qué hace y cómo funciona: cubierto en el guion (registro offline + voz opcional + foto de constancia).
 - ⚠️ Cómo se relaciona con el dolor del que paga (el dueño), y cómo se llegó al solution-customer fit: no entran en el guion de 78 palabras — esta slide es QUÉ/CÓMO por diseño (ver Nota abajo), el "por qué le conviene en plata" ya vive en la slide 3, y la prueba de solution-customer fit (Círculo H) vive en la slide 6. Si querés, puedo mover una mención breve aquí, pero implica sacarle palabras a otra parte del guion.
