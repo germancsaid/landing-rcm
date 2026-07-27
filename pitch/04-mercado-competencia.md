@@ -17,7 +17,7 @@ Cada círculo con su etiqueta y monto afuera o en el borde (no metas texto largo
 
 **2. Gráfica cartesiana de posicionamiento (no tabla de 3 columnas):**
 Eje X: **Digitalización** (Manual → Digital). Eje Y: **Confiabilidad del dato** (Baja → Alta, es decir: ¿se puede verificar o falsificar?).
-- Excel + WhatsApp: abajo a la izquierda (manual, no verificable).
+- Excel + WhatsApp: abajo y a la izquierda (manual, no verificable).
 - FieldData: abajo a la derecha (muy digital — registra por WhatsApp — pero no verifica lo que el operador dice).
 - TrackTor: arriba a la derecha, solo — digital y verificable a la vez. Esa esquina vacía es el punto de la slide: nadie más está ahí.
 Tres puntos o logos, con TrackTor destacado. Esto reemplaza la tabla de checks/cruces — un cuadrante se lee de un vistazo, una tabla no.
