@@ -2,7 +2,7 @@
 
 ## Guion (presupuesto: 47 palabras)
 
-Cobramos suscripción mensual: Free, hasta 2 máquinas, sin evidencia fotográfica — la puerta de entrada. Pro, a $59 al mes, con fotos y asistente de voz. Max, a $99, máquinas y operadores ilimitados. Nuestro primer cliente, con 13 máquinas, entró directo a Max el mismo día del lanzamiento.
+Cobramos suscripción mensual: Free, hasta 2 máquinas, sin evidencia fotográfica — la puerta de entrada. Pro, a $49 al mes, con fotos y asistente de voz. Max, a $99, máquinas y operadores ilimitados. Nuestro primer cliente, con 13 máquinas, entró directo a Max el mismo día del lanzamiento.
 
 ## Imagen sugerida
 

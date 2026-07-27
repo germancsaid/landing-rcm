@@ -76,7 +76,7 @@ Foto del horómetro y de la bomba de diésel por WhatsApp, transcrita a mano en 
 
 #### PRICING
 Free: 2 maquinas, 2 operadores, No fotos, No dictado por voz (IA), 30 dias historial
-Pro: $59 USD/mes, 10 maquinas, 10 operadores, Fotos, Dictado por voz (IA), 1 año historial
+Pro: $49 USD/mes, 10 maquinas, 10 operadores, Fotos, Dictado por voz (IA), 1 año historial
 Max: $99 USD/mes, Máquinas ilimitadas, Operadores ilimitados, Fotos, Dictado por voz (IA), historial completo
 
 #### TAM
