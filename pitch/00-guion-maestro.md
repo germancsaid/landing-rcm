@@ -11,18 +11,18 @@ Estructura definida: 8 slides. No es pitch de inversión — el CTA final es vis
 7. [Equipo](07-equipo.md)
 8. [Call to action](08-cta.md)
 
-Slide	Prioridad	Presupuesto	Actual (al día de hoy)	Diferencia
-01 Problema	Alta — el gancho	70	67	-3
-02 Solución	La más alta — el "ajá"	78	71	-7
-03 Propuesta de valor	Alta	55	52	-3
+Slide	Prioridad	Presupuesto	Actual (después de la 2da ronda de revisión)	Diferencia
+01 Problema	Alta — el gancho	70	81	+11 (se agregó rango en $ + reformulación de urgencia)
+02 Solución	La más alta — el "ajá"	78	73	-5
+03 Propuesta de valor	Alta	55	70	+15 (se agregó mención de pérdida de dinero + tracción)
 04 Mercado y competencia	Baja — al productor no le importa tu TAM	31	31	0
-05 Modelo de negocio	Media — precio debe quedar claro	47	48	+1
-06 Métricas	Media-alta — prueba social	47	40	-7
+05 Modelo de negocio	Media — precio debe quedar claro	47	49	+2
+06 Métricas	Media-alta — prueba social	47	37	-10
 07 Equipo	Baja — no es pitch de inversión	27	25	-2
-08 CTA	Media, pero corta y contundente	35	32	-3
-Total		390	366	-24
+08 CTA	Media, pero corta y contundente	35	35	0
+Total		390	401	+11
 
-(Tabla original de planificación, antes del recorte: 653 palabras totales. Ya está hecho — esto es el estado final, ~2.8 min a 130 ppm.)
+(Después de la 2da ronda de revisión — 3 slides pidieron explícitamente sumar contenido en plata/urgencia/tracción, así que el total subió un poco: 401 palabras ≈ 3.08 min a 130 ppm, prácticamente en el objetivo de 3 minutos, ~5 segundos de sobra.)
 
 ## Contexto
 ### TRACKTOR

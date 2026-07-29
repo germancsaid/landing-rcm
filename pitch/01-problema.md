@@ -1,16 +1,18 @@
 # Slide 1 — El Problema (con el costo del dolor)
 
-## Guion (presupuesto: 70 palabras — pitch de 3 min / 8 slides)
+## Guion (presupuesto original: 70 palabras — ahora 81, ver nota de la segunda ronda de revisión abajo)
 
-Todos los días, en propiedades grandes de Santa Cruz, un operador fotografía horómetro, bomba de diésel y libreta diaria, y las manda por WhatsApp. Días después, alguien las transcribe a Excel, cuando ya no hay nada que corregir.
+Todos los días, en propiedades grandes de Santa Cruz, un operador fotografía horómetro, diésel y libreta diaria, y las manda por WhatsApp. Días después, alguien las transcribe a Excel, cuando ya no hay nada que corregir.
 
-Sin auditoría en el momento, se pierde hasta 7% del diésel despachado y 3% en horas mal registradas, cada mes. Validamos el dolor con el 80% de productores entrevistados.
+Sin auditoría, se pierde hasta 7% del diésel y 3% de las horas — casi un mes de sueldo pagado sin trabajar, cada año. En plata, eso son entre $400 y $470 USD al mes por propiedad. Lo validamos con el 80% de productores entrevistados.
 
 ## Imagen sugerida
 
+**Fondo negro** (pedido por la segunda ronda de revisión, para toda la presentación — resalta más los logos y stats que el fondo blanco actual).
+
 Slide dividida en dos mitades:
 - **Izquierda:** foto real (o recreación) de un horómetro fotografiado con celular en pleno campo — textura real, no ícono genérico.
-- **Derecha:** dos stats grandes en vez del monto fijo — "7% del diésel" y "3% de las horas", con fuente (CAO 2025, MDRyT, proxy de flotas LatAm) en letra chica debajo. Cambio pedido por los mentores de la incubadora: hablar en % de la operación de cada productor, no en un monto fijo ($5,164), porque no toda la audiencia opera a la escala del segmento que usamos para calcularlo. Opcional: una línea pequeña abajo con el dato de crecimiento del mercado (AgTech, +15% anual) para reforzar que el problema —y la oportunidad— crecen.
+- **Derecha:** dos stats grandes como protagonistas — "7% del diésel" y "3% de las horas" — con una línea más chica debajo tipo "= entre $400 y $470 USD al mes por propiedad". % primero (es lo que aplica a cualquier escala), la plata como referencia secundaria, no al revés. Fuente (CAO 2025, MDRyT, proxy de flotas LatAm) en letra chica debajo. Opcional: una línea pequeña con el dato de crecimiento del mercado (AgTech, +15% anual).
 
 ## Fuentes
 
@@ -32,11 +34,13 @@ Slide dividida en dos mitades:
 - % de fuga de diésel (7%) — **supuesto, proxy de flotas logísticas LatAm sin monitoreo; a validar en agro**
 - % de error/fraude en nómina (3%) — **supuesto; a validar**
 - 80% de productores entrevistados validó el dolor — **dato primario, validado**
+- Rango de $400-$470 USD/mes: $5,164/año ÷ 11 meses (mismo criterio de "11 meses al año" que usa el 00 para diésel y nómina) ≈ $470/mes (total); $3,920+$465=$4,385 (solo diésel+horas, sin tiempo administrativo) ÷ 11 ≈ $400/mes. El rango son esos dos extremos — **derivado de datos ya validados, no es un número nuevo**.
 
 ## Estado de las observaciones de revisión
 
-- ⚠️ Proyección de crecimiento del segmento y tendencia de digitalización: no entra en el guion hablado — el presupuesto de 70 palabras no alcanza. Movido a la imagen sugerida como stat visual ("AgTech +15% anual") para que quede en pantalla sin gastar tiempo hablado. Fuentes abajo, por si lo usás en otra slide con más espacio (ej. 04, si decidís asignarle más presupuesto).
-- ✅ Observación de los mentores de la incubadora: cambiar de monto fijo a % de la operación. Hecho — el guion ahora dice "7% del diésel" y "3% de las horas" en vez de "$5,164 por propiedad". Cualquier productor, tenga 2 máquinas o 20, puede ubicarse en esos porcentajes; el monto fijo solo funcionaba para quien opera a la escala exacta que usamos para calcularlo (700 ha, 4 máquinas).
+- ⚠️ Proyección de crecimiento del segmento y tendencia de digitalización: no entra en el guion hablado — el presupuesto no alcanza. Movido a la imagen sugerida como stat visual ("AgTech +15% anual").
+- ✅ Segunda ronda de revisión — "traducir a plata": pediste el enfoque híbrido (% como protagonista + rango en $ de referencia). Hecho: se agregó "$400-$470 USD al mes" derivado del mismo $5,164/año ÷ 11 meses.
+- ✅ Segunda ronda — "aumentar urgencia del 3%": 3% de 7,744 h/año = 232 horas fantasma, ≈ 29 días de sueldo pagado sin trabajar (casi un mes). Reformulado así en el guion — mismo dato, más visceral.
 
 ## ✅ Resuelto — slide 3 (Propuesta de valor)
 

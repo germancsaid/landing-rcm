@@ -1,10 +1,12 @@
 # Slide 3 — Propuesta de valor
 
-## Guion (presupuesto: 55 palabras)
+## Guion (presupuesto original: 55 palabras — ahora 70, ver nota de segunda ronda abajo)
 
-Hoy perdés hasta 7% de diésel y 3% de horas, y te enterás treinta días tarde. TrackTor valida cada litro y cada hora en el momento: las horas infladas se vuelven imposibles de esconder, y la fuga de diésel se detecta el mismo día — no en el próximo cierre de mes.
+Hoy perdés hasta 7% de diésel y 3% de horas, y te enterás treinta días tarde. TrackTor valida cada litro y cada hora en el momento: las horas infladas se vuelven imposibles de esconder, y la fuga de diésel se detecta el mismo día — así esa plata que hoy se va en combustible y gestión, empieza a quedarse en tu bolsillo. Ya lo estamos viendo con nuestros primeros clientes.
 
 ## Imagen sugerida
+
+**Fondo negro** (pedido en la segunda ronda de revisión, para toda la presentación).
 
 Dos paneles "Antes / Con TrackTor" (no balanza de dólares — eso quedó en la versión anterior):
 - **Antes:** ícono de calendario, "30 días después", con "7% diésel + 3% horas se pierden sin que nadie lo note".
@@ -20,3 +22,6 @@ Me gusta la estructura (antes/después en %), pero no puse un número de destino
 Para las horas sí hay un argumento sólido sin necesitar un número: el horómetro se valida contra el registro anterior, así que inflar horas se vuelve estructuralmente imposible — no es una proyección, es cómo funciona el producto. Por eso el guion dice "imposible de esconder" ahí, y solo "se detecta el mismo día" para el diésel (más honesto: reduce el tiempo de detección, no promete un % de reducción que todavía no medimos).
 
 **Sugerencia:** Círculo H lleva ~2 semanas con TrackTor. Si les pedís el dato real de cuánto bajó su fuga de diésel desde que empezaron a usar la app, tenés un número verdadero — propio, no de un competidor de GPS — y ahí sí lo metemos en esta slide con toda confianza.
+
+## Segunda ronda de revisión — decisión tomada
+Los nuevos mentores sugirieron ir más lejos todavía: poner una meta agresiva ("baja a 0.1%", incluso "0.05%, no le tengas miedo a exagerar") para transmitir confianza. Le pregunté a Charls si prefería eso o quedarnos con el lenguaje de mecanismo sin números — eligió quedarse sin montos ni %, solo mecanismo: "se detecta el mismo día" y ahora también "esa plata... empieza a quedarse en tu bolsillo" (pérdida de dinero mencionada explícitamente, sin cifra). Es la misma lógica de antes: no inventar un número que no se puede defender si alguien pregunta "¿cómo lo midieron?". También se agregó una mención a los "primeros clientes" (tracción real) como estaba pedido — sin nombrar montos que tampoco existen todavía (ver la nota sobre la slide 6/métricas, donde tampoco hay datos de ahorro reales aún).

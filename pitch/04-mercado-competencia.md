@@ -6,21 +6,25 @@ Santa Cruz mueve $5 millones al año en este segmento; Bolivia, $7 millones. Hoy
 
 ## Imagen sugerida (rediseñada — pedido de la incubadora: menos tabla/barras, más visual)
 
+**Fondo negro** (pedido en la segunda ronda de revisión, para toda la presentación — acá además ayuda a que no se sienta "vacía", ver nota abajo).
+
 Dos bloques en la misma slide, lado a lado o uno arriba del otro:
 
 **1. TAM/SAM/SOM como círculos concéntricos (no barras):**
-Tres círculos, uno dentro del otro, de mayor a menor:
+Escribí las palabras **"TAM" "SAM" "SOM" en grande** (tipografía grande, no solo el monto) — pedido explícito de la segunda ronda. Tres círculos, uno dentro del otro, de mayor a menor:
 - Círculo exterior: **TAM — $7M** (Bolivia, ~5,915 empresas grandes)
 - Círculo medio: **SAM — $5M** (Santa Cruz, 4,200 empresas grandes)
 - Círculo interior, relleno sólido en el color de marca: **SOM — $35,640** (30 clientes, meta de este trimestre)
-Cada círculo con su etiqueta y monto afuera o en el borde (no metas texto largo adentro). El tamaño de cada círculo debe ser proporcional al valor real, no decorativo — evitá que el SOM se vea casi del mismo tamaño que el TAM, ya que es <1% de él.
+Cada círculo con su etiqueta grande (TAM/SAM/SOM) + monto afuera o en el borde. El tamaño de cada círculo debe ser proporcional al valor real, no decorativo — evitá que el SOM se vea casi del mismo tamaño que el TAM, ya que es <1% de él.
 
 **2. Gráfica cartesiana de posicionamiento (no tabla de 3 columnas):**
 Eje X: **Digitalización** (Manual → Digital). Eje Y: **Confiabilidad del dato** (Baja → Alta, es decir: ¿se puede verificar o falsificar?).
-- Excel + WhatsApp: abajo y a la izquierda (manual, no verificable).
-- FieldData: abajo a la derecha (muy digital — registra por WhatsApp — pero no verifica lo que el operador dice).
+- Status quo manual: abajo a la izquierda — etiquetalo **"Excel / libretas"**, sin el logo de WhatsApp. Los revisores señalaron que mostrar el logo de WhatsApp acá es contraproducente: si el cliente ve "WhatsApp" como parte del status quo, puede pensar "yo ya uso WhatsApp, ¿para qué cambio?". Nada de ícono de WhatsApp en esta slide.
+- FieldData: abajo a la derecha (muy digital — registra por WhatsApp — pero no verifica lo que el operador dice). Acá sí va el logo de FieldData (lo tienen en fielddata.ag), porque es un competidor real que hay que nombrar, no el canal que usa.
 - TrackTor: arriba a la derecha, solo — digital y verificable a la vez. Esa esquina vacía es el punto de la slide: nadie más está ahí.
 Tres puntos o logos, con TrackTor destacado. Esto reemplaza la tabla de checks/cruces — un cuadrante se lee de un vistazo, una tabla no.
+
+**Sobre la sensación de "slide vacía" que notaron los revisores:** con los círculos + el cuadrante ya hay bastante contenido visual — si con fondo negro y las etiquetas grandes de TAM/SAM/SOM todavía se siente vacía, la opción más simple es agregar el logo de FieldData en la comparación (ya sugerido arriba) y asegurarse de que los círculos y el cuadrante ocupen todo el espacio vertical de la slide, no queden centrados con margen de sobra alrededor.
 
 ## Fuentes
 - [CAO — 70,000 productores, 6% grandes (2025)](https://cao.org.bo/2025/03/13/la-cao-posesiona-a-su-nueva-directiva-gestion-2025-2027/)
@@ -32,6 +36,10 @@ Tres puntos o logos, con TrackTor destacado. Esto reemplaza la tabla de checks/c
 - ⚠️ Insights de IA entrando a LATAM / tendencia de adopción a futuro: no caben en 31 palabras habladas — movidos a la imagen como stat de apoyo.
 - ⚠️ "Potencialidad del mercado" más allá de números: con este presupuesto de palabras, la slide solo alcanza para el número + una línea de competencia. Si esto importa más que el equipo (slide 7, 27 palabras) o que las métricas (slide 6, 47 palabras), decime y le quito presupuesto a esas para dárselo a esta.
 - ✅ Rediseño visual pedido por la incubadora: reemplacé las barras TAM/SAM por círculos concéntricos con montos específicos, y la tabla de 3 columnas por una gráfica cartesiana de posicionamiento (digitalización vs. confiabilidad del dato). El guion hablado no cambió — el problema era visual, no de contenido.
+
+## Pendiente — todavía no resuelto
+- **Promedio de máquinas por empresa:** los revisores sugirieron "~5" como subtítulo de contexto. Charls confirmó no cambiar nada acá — se queda en 4, el dato que ya está validado y metido en todos los cálculos del 00. No se agregó ningún subtítulo de "promedio de máquinas" a esta slide.
+- **Roadmap a 1/5/10 años:** los revisores pidieron una proyección de más largo plazo (cómo escalás del SOM al resto del TAM) porque "los inversores necesitan verla" — pero el 00 dice explícitamente "no es pitch de inversión". No armé una proyección a 10 años porque implicaría inventar supuestos de crecimiento que no discutimos, y no te pregunté esto en la ronda anterior (se me pasó). El roadmap que ya existe en el 00 solo llega a "después: 150 clientes" sin fecha ni horizonte. Decime si querés que arme una proyección más larga (y con qué supuestos de crecimiento) o si preferís mantener el foco comercial de corto plazo que ya tenías.
 
 ## Alerta competitiva (no es solo un dato de la slide)
 FieldData ya opera en Bolivia, con +6,000 productores en la región y planes desde $35/mes — más barato que el Pro de TrackTor ($49/mes). No es un competidor hipotético ni solo local: es una empresa regional establecida que ya podría estar hablando con los mismos productores grandes de Santa Cruz que son tu SAM. La pelea no la ganás por precio (ellos son más baratos) ni por volumen (ellos tienen más usuarios) — la ganás por confianza del dato: ellos registran lo que el operador dice, vos verificás lo que el operador hizo (foto en la app, GPS, hora, cruce con horómetro). Si en el pitch alguien pregunta "¿por qué no uso FieldData que ya conozco?", esa es la única respuesta que sostiene.
