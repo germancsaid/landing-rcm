@@ -5,7 +5,11 @@ Pediste que esta slide muestre uso actual del producto, no futuro ni pipeline �
 
 ## Guion (presupuesto: 47 palabras)
 
-Llevamos 12 días en producción. Hoy 2 clientes activos gestionan 13 máquinas con 8 operadores, generando 14 registros por máquina cada semana: más de 180 registros reales de campo, no proyectados. Círculo H es uno de ellos.
+Estamos en beta, con las apps a la espera de aprobación en App Store y Google Play. Hoy 2 clientes activos gestionan 13 máquinas con 8 operadores, generando 14 registros por máquina cada semana: más de 180 registros reales de campo, no proyectados. Círculo H es uno de ellos.
+
+> ⚠️ Actualización 2026-08-30: se quitó "12 días en producción" — la app **no**
+> está publicada en tiendas todavía (iOS en revisión, Android en internal
+> testing). Ver `docs/CONTEXT-PMF.md`. Los números de uso no cambiaron.
 
 ## Imagen sugerida
 

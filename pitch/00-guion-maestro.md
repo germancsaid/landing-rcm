@@ -77,6 +77,14 @@ Foto del horómetro y de la bomba de diésel por WhatsApp, transcrita a mano en 
 **Diferencial frente al status quo:** cada registro va respaldado por una foto de constancia tomada dentro de la misma app no de la galería, no reenviada, con GPS y hora sellados. Eso convierte el dato más manipulable del campo en el más confiable. Ni el Excel manual ni la competencia que solo dicta por WhatsApp pueden garantizar que el dato es real.
 
 #### PRICING
+
+> 🔴 **DESACTUALIZADO (2026-08-30).** El modelo Free/Pro/Max de abajo ya no
+> existe. Vigente: **2 máquinas gratis + USD 5.99/máquina/mes desde la 3ª**,
+> operadores ilimitados, todas las funciones en todos los tramos, sin
+> feature-gating; historial local 12 meses, servidor completo. El TAM/SAM/SOM de
+> este archivo está calculado sobre "$1.188/año = plan Max" y hay que rehacerlo.
+> Ver `docs/CONTEXT-PMF.md`.
+
 Free: 2 maquinas, 2 operadores, No fotos, No dictado por voz (IA), 30 dias historial
 Pro: $49 USD/mes, 10 maquinas, 10 operadores, Fotos, Dictado por voz (IA), 1 año historial
 Max: $99 USD/mes, Máquinas ilimitadas, Operadores ilimitados, Fotos, Dictado por voz (IA), historial completo

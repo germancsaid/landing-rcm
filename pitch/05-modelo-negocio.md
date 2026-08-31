@@ -1,6 +1,14 @@
 # Slide 5 — Modelo de negocio inicial
 
-## Guion (presupuesto: 47 palabras)
+> 🔴 **DESACTUALIZADO (2026-08-30).** El guion y la imagen de abajo describen el
+> modelo Free/Pro $49/Max $99, que **ya no existe**. El modelo vigente
+> (`docs/AGENTS.md`, código de `app-rcm`, memoria `rcm-pricing-por-maquina`) es:
+> **2 máquinas gratis + USD 5.99 por máquina al mes desde la 3ª**, operadores
+> ilimitados, todas las funciones en todos los tramos, sin feature-gating.
+> Reescribir con Juan Camilo / Charls — **esto arrastra el TAM/SAM/SOM de las
+> slides 00 y 04**, que están calculados sobre "$1.188/año = plan Max".
+
+## Guion (presupuesto: 47 palabras) — REESCRIBIR
 
 Como cada empresa grande maneja varias máquinas, cobramos por máquina, no por empresa: Free, hasta 2, sin evidencia fotográfica. Pro, a $49 al mes, hasta 10, con fotos y voz. Max, a $99, ilimitadas. Nuestro primer cliente, con 13 máquinas, entró directo a Max el mismo día del lanzamiento.
 

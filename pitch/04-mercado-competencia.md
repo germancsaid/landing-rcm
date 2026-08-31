@@ -1,5 +1,11 @@
 # Slide 4 — Tamaño de mercado y competencia
 
+> ⚠️ **Revisar (2026-08-30).** El SOM de $35.640 = "30 clientes × $1.188/año (plan
+> Max)" quedó atado al pricing viejo. Con el modelo vigente (USD 5.99/máquina,
+> 2 gratis) 30 clientes tipo Círculo H (~11 cupos c/u) dan ≈ **USD 24K/año**.
+> El TAM/SAM como "bolsa de valor del dolor" se sostienen; el SOM como ingreso
+> hay que rehacerlo. Ver `docs/CONTEXT-PMF.md` y la nota en la slide 05.
+
 ## Guion (presupuesto: 31 palabras — el más ajustado del pitch)
 
 Santa Cruz mueve $5 millones al año en este segmento; Bolivia, $7 millones. Hoy compiten Excel y FieldData, que solo registra por WhatsApp sin verificar el dato. TrackTor sí lo verifica.
