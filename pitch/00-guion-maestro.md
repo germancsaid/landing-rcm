@@ -111,6 +111,14 @@ Fuentes:
 - [ANAPO/CAO — 3.14M ha cultivados en Santa Cruz, 2025/26](https://agrosinergia.com.bo/area-cultivada-registro-crecimiento-de-4-y-3-7-en-produccion-de-bolivia-santa-cruz-concentra-71-25-del-total/)
 
 #### SOM
+
+> 🔴 **DESACTUALIZADO (2026-08-30).** Este SOM y la TRACCIÓN/HITOS de abajo
+> ("primer cliente pagando en Max", "$99 ingresos", "2 usuarios") **son falsos
+> según el equipo**: los 3 beta testers (Círculo H, Fumipla, Estancias Valdez)
+> **no pagan**, es pre-revenue. El SOM vigente del GTM es **USD 30K ARR — 500
+> máquinas en Santa Cruz (~150–200 productores), primeros 12 meses**. TAM LATAM
+> USD 179,7M/año · SAM Bolivia USD 2,51M/año. Ver `docs/GTM-PLAN.md`.
+
 **$35,640 USD/año** — 30 clientes grandes en plan Max ($1,188/año), meta al cierre del próximo trimestre.
 
 Lo que capturamos de forma realista en el corto plazo: 30 de las 4,200 empresas grandes de Santa Cruz (0.7% del SAM), convirtiendo los 26 leads en lista de espera y activando los 3 canales de venta (WhatsApp, ferias agropecuarias, alianzas con proveedores). Ya tenemos el primer cliente pagando en Max.

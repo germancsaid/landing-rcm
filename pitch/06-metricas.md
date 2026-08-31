@@ -3,13 +3,18 @@
 ## ✅ Resuelto: usabilidad real, no potencialidad
 Pediste que esta slide muestre uso actual del producto, no futuro ni pipeline — así que saqué "26 en lista de espera" de acá (eso es potencial, no uso; ya vive en el Roadmap del 00). En su lugar, datos de actividad real: 2 usuarios activos, 13 máquinas gestionadas, 8 operadores registrando, y 14 registros por máquina cada semana. Esto es mejor que un DAU genérico — le dice a la audiencia exactamente qué tan seguido se usa el producto en campo.
 
-## Guion (presupuesto: 47 palabras)
+## Guion (presupuesto: 47 palabras) — REESCRIBIR
 
 Estamos en beta, con las apps a la espera de aprobación en App Store y Google Play. Hoy 2 clientes activos gestionan 13 máquinas con 8 operadores, generando 14 registros por máquina cada semana: más de 180 registros reales de campo, no proyectados. Círculo H es uno de ellos.
 
-> ⚠️ Actualización 2026-08-30: se quitó "12 días en producción" — la app **no**
-> está publicada en tiendas todavía (iOS en revisión, Android en internal
-> testing). Ver `docs/CONTEXT-PMF.md`. Los números de uso no cambiaron.
+> 🔴 **Corregir (2026-08-30).** El equipo confirmó que **ninguno de los 3 beta
+> testers (Círculo H, Fumipla, Estancias Valdez) paga** — son pilotos, es
+> pre-revenue. Esta slide todavía dice "2 clientes activos" e insinúa pago. Los
+> números 13 máquinas / 8 operadores / 182 registros eran de Círculo H y no están
+> consolidados across los 3. Rehacer con datos reales al cierre de la beta
+> (semanas 3–4 del GTM). Además se quitó "12 días en producción": la app no está
+> en tiendas (iOS en revisión, Android en internal). Ver `docs/CONTEXT-PMF.md` y
+> `docs/GTM-PLAN.md`.
 
 ## Imagen sugerida
 
