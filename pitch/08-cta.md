@@ -19,7 +19,7 @@ Coherente con la landing ya corregida (sin testimonios falsos, con tracción rea
 
 **Imágenes "estiradas":** revisé el CSS (`styles.css`). Las screenshots de la app usan `width: 100%` sin forzar altura, y las imágenes de fondo (hero, cierre) usan `background-size: cover` — ambas técnicas preservan la proporción, no deberían estirarse. No encontré el bug en el código. Puede ser algo que solo se ve en cierto tamaño de pantalla, o una imagen específica con una proporción distinta a la que espera su contenedor. Si me pasás una captura de dónde se ve estirado, lo reviso puntual.
 
-**Links a tiendas de apps:** no aplica todavía — la app no está publicada. Cuando esté en App Store / Play Store, agregamos los links acá.
+**Links a tiendas de apps:** ✅ resuelto para iOS. La app se publicó en la App Store el 2026-09-05: https://apps.apple.com/bo/app/tracktor/id6781363801 (está publicada solo en la tienda de Bolivia, por eso el link lleva `/bo/`). Ya está en la landing (hero, sección de descarga y footer) y en el one-pager. **Android sigue sin publicar** en Google Play — ahí se mantiene la beta por WhatsApp; cuando salga, agregamos el link acá.
 
 ## ⚠️ Todavía pendiente
 Los revisores pidieron cerrar con una anécdota real (storytelling) — te pregunté por una historia concreta tuya, de Juan Camilo, o de un cliente, y todavía no me la diste. No inventé nada en su lugar. Cuando la tengas, la sumamos acá o al cierre verbal del pitch (no necesariamente tiene que estar escrita en la slide).

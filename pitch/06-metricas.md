@@ -5,7 +5,7 @@ Pediste que esta slide muestre uso actual del producto, no futuro ni pipeline �
 
 ## Guion (presupuesto: 47 palabras) — REESCRIBIR
 
-Estamos en beta, con las apps a la espera de aprobación en App Store y Google Play. Hoy 2 clientes activos gestionan 13 máquinas con 8 operadores, generando 14 registros por máquina cada semana: más de 180 registros reales de campo, no proyectados. Círculo H es uno de ellos.
+La app ya está publicada en la App Store; en Android seguimos en beta. Hoy 2 clientes activos gestionan 13 máquinas con 8 operadores, generando 14 registros por máquina cada semana: más de 180 registros reales de campo, no proyectados. Círculo H es uno de ellos.
 
 > 🔴 **Corregir (2026-08-30).** El equipo confirmó que **ninguno de los 3 beta
 > testers (Círculo H, Fumipla, Estancias Valdez) paga** — son pilotos, es
@@ -15,6 +15,13 @@ Estamos en beta, con las apps a la espera de aprobación en App Store y Google P
 > (semanas 3–4 del GTM). Además se quitó "12 días en producción": la app no está
 > en tiendas (iOS en revisión, Android en internal). Ver `docs/CONTEXT-PMF.md` y
 > `docs/GTM-PLAN.md`.
+
+> 🟢 **Actualización (2026-09-05).** iOS **ya está publicada** en la App Store
+> (https://apps.apple.com/bo/app/tracktor/id6781363801, solo tienda de Bolivia),
+> así que la parte de "iOS en revisión" de la corrección de arriba quedó
+> superada y el guion ya dice que está publicada. Android sigue sin publicar en
+> Google Play. Lo que **sigue pendiente** de esa corrección: los números de
+> clientes/máquinas/operadores (pre-revenue, sin consolidar entre los 3 pilotos).
 
 ## Imagen sugerida
 
